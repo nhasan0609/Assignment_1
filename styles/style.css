@@ -1,0 +1,22 @@
+/* Common style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.banner {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.banner img {
+width: 100%;
+}
+.banner .banner-content {
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
